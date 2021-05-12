@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Reggae+One&family=Titillium+Web&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1440px;
+  background-color: #000;
+  color: #FFF;
+  font-family: 'Titillium Web', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: skyblue;
+  font-weight: bold;
+}
+a:hover{
+  color: #2196f3;
+  box-shadow: 0 0 10px 0 rgba(33,150,243,0.8) inset;
+}
+.btn{
+  cursor: pointer;
+  color: skyblue;
+  background-color: transparent;
+  border: 1px solid skyblue;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+.btn:hover{
+  color: #2196f3;
+  background-color: skyblue;
+  border: 1px solid #2196f3;
+  box-shadow: 0 0 100px 20px rgba(33,150,243,0.8);
+}
+hr {
+  border: 1px solid skyblue;
+}
+/* ======================= */
+/* header started */
+/* ======================= */
+.hdr{
+  min-width: 100%;
+  position: relative;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+}
+.logo-txt{
+  margin-top: 14px;
+  font-size: 32px;
+  font-family: 'Reggae One', cursive;
+}
+.navbar{
+  display: flex;
+  background-color: #232323;
+  padding: 0 20px 0 80px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  margin-top: 20px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 14px;
+}
+.fa-bars{
+  display: none;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.fa-times{
+  padding-left: 22px;
+  margin-top: 20px;
+  margin-right: 11px;
+}
+/* styling home(after-header) */
+.home{
+  height: 500px;
+  padding: 0 120px;
+  position: relative;
+  text-align: center;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,50,76,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,50,76,1) 100%);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,50,76,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00324c",GradientType=1);
+}
+.hero-txt{
+  text-align: left;
+  font-size: 46px;
+  padding-top: 150px;
+}
+.red{
+  color: red;
+}
+#floating-thumb{
+  position: absolute;
+  top: 15%;
+  right: 8%;
+  width: 420px;
+  height: 280px;
+}
+#lrn-mre{
+  margin-top: 150px;
+}
+/* ======================= */
+/* section started */
+/* ======================= */
+.section-cntnr{
+  text-align: center;
+  
+}
+.section-cntnr .sec1,
+.section-cntnr .sec2,
+.section-cntnr .sec3 {
+  padding: 40px 120px;
+}
+.caption{
+  text-transform: uppercase;
+}
+.sec1 .col{
+  min-height: 200px;
+  padding: 40px 20px;
+  border: 1px solid skyblue;
+}
+.regular-txt{
+  padding: 20px 40px 0;
+}
+.sec-hero-txt{
+  padding: 10px 25%;
+}
+.card{
+  border: 1px solid skyblue;
+  padding: 40px 0;
+}
+.reg-img{
+  width: 200px;
+  height: 200px;
+}
+#branches .reg-img{
+  margin-top: 20px;
+}
+.span_1_of_3 button{
+  display: inline-block;
+  margin-top: 20px;
+}
+#see-more-btn{
+  margin: 20px;
+}
+/* ===========================*/
+/* footer section started */
+/* ===========================*/
+.social-cntnr,.copyrights-info{
+  text-align: center;
+}
+.social-cntnr{
+  padding: 0 400px;
+}
+.social-caption{
+  text-transform: capitalize;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+ .ftr ul{
+  padding: 4px 10px;
+} 
+.ftr ul li{
+  list-style-type: none;
+}
+.ftr a{
+  text-decoration: none;
+}
+.ftr_befr_hr{
+  max-width: 50%;
+  margin: 20px auto;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+/* Other page style */
+address {
+  margin-top: 20px;
+}
+/* =======================*/
+/* Responsive Design  */
+/* =======================*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+    width: 100%;
+  }
+  .navbar{
+    padding:  0 10px;
+  }
+  .logo{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  .logo-txt{
+    margin-top: 18px;
+    font-size: 20px;
+  }
+  nav{
+    text-align: center;
+  }
+  nav ul{
+    display: none;
+    position: absolute;
+    top: 36px;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #000;
+    min-height: 85vh;
+    padding-top: 20vh;
+    
+  }
+  nav ul li{
+    padding: 5%;
+    display: block;
+    min-width: 100%;
+  }
+  .fa-bars{
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .home{
+    padding: 0 20px;
+    min-width: 100%;
+    min-height: 440px;
+  }
+  #floating-thumb{
+    position: static;
+    display: block;
+    width: 240px;
+    height: 150px;
+    margin: 40px auto 0;
+  }
+  .hero-txt{
+    padding-top: 40px;
+    font-size: 38px;
+    text-align: center;
+  }
+  #lrn-mre{
+    margin-top: 30px;
+  }
+  .section-cntnr .sec1,
+  .section-cntnr .sec2,
+  .section-cntnr .sec3 {
+    padding: 40px 40px;
+  }
+  .sec-hero-txt{
+    padding: 10px 20px;
+  }
+  .social-cntnr{
+    padding: 0;
+  }
+  .social-cntnr .col{
+    text-align: center;
+  }
+  .ftr_befr_hr{
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 800px) {
+  body{
+    width: 100%;
+  }
+  .navbar{
+    padding:  0 10px;
+  }
+  .logo{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  .logo-txt{
+    margin-top: 18px;
+    font-size: 20px;
+  }
+  nav{
+    text-align: center;
+  }
+  nav ul{
+    display: none;
+    position: absolute;
+    top: 36px;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #000;
+    min-height: 85vh;
+    padding-top: 20vh;
+    
+  }
+  nav ul li{
+    padding: 5%;
+    display: block;
+    min-width: 100%;
+  }
+  .fa-bars{
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .home{
+    padding: 0 20px;
+    min-width: 100%;
+    min-height: 440px;
+  }
+  #floating-thumb{
+    position: static;
+    display: block;
+    width: 240px;
+    height: 150px;
+    margin: 40px auto 0;
+  }
+  .hero-txt{
+    padding-top: 40px;
+    font-size: 38px;
+    text-align: center;
+  }
+  #lrn-mre{
+    margin-top: 30px;
+  }
+  .section-cntnr .sec1,
+  .section-cntnr .sec2,
+  .section-cntnr .sec3 {
+    padding: 40px 40px;
+  }
+  .sec-hero-txt{
+    padding: 10px 20px;
+  }
+  .resp-reg-txt{
+    padding: 20px 10px 0;
+  }
+  .social-cntnr{
+    padding: 0;
+  }
+  .social-cntnr .col{
+    text-align: center;
+  }
+  .ftr_befr_hr{
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}

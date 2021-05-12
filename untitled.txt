@@ -1,0 +1,58 @@
+Dhaka Branch
+----------------------
+Parimal Chandra Das
+(Proprietor)
+phn no: +8801728883555
+        +8801917710595
+addr: Dominian Rowshanvilla, Plot# 32 (Mymensingh Lane) Banglamotor, Dhaka-1000.
+Email: parimal.pbl1@gmail.com
+-------------------------
+
+
+Bogura Branch
+----------------------
+Amal Kumar Das
+(RSM- Regional sells Manager)
+phn no: +8801739894302
+        +8801725320303
+addr: Bonani, Bogura-5800
+Email: anikdas1191@gmail.com
+-------------------------
+
+
+
+Gaibandha Branch
+----------------------
+Dipok Kumar Modak
+(Bussiness Partner)
+phn no: +8801737657409
+addr: Kamardoho, Fasitola, Gobindogoanj, Gaibandha
+Email: parimal.pbl1@gmail.com
+
+<address>
+<b>Parimal Chandra Das</b> <br />
+<span class="designatiin">(Proprietor)</span><br />
+<b>Phone no: </b>+8801728883555 <br />
+<b class="invisible">Phone no: </b>+8801917710595 <br />
+
+<b>Address: </b>Dominian Rowshanvilla, Plot# 32 (Mymensingh Lane) Banglamotor, Dhaka-1000.<br>
+<b>Email: </b><a href="mailto:parimal.pbl1@gmail.com">Parimal Chandra Das</a><br>
+</address>
+
+<address>
+<b>Amal Kumar Das</b> <br />
+<span class="designatiin">(RSM- Regional sells Manager)</span><br />
+<b>Phone no: </b>+8801739894302 <br />
+<b class="invisible">Phone no: </b>+8801725320303 <br />
+
+<b>Address: </b>Bonani, Bogura-5800<br>
+<b>Email: </b><a href="mailto:anikdas1191@gmail.com">Amal Kumar Das</a><br>
+</address>
+
+<address>
+<b>Dipok Kumar Modak</b> <br />
+<span class="designatiin">(Business Partner)</span><br />
+<b>Phone no: </b>+8801737657409 <br />
+<b>Address: </b>Kamardoho, Fasitola, Gobindogoanj, Gaibandha<br>
+<b>Email: </b><a href="mailto:parimal.pbl1@gmail.com">Parimal Chandra Das</a><br>
+</address>
